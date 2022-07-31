@@ -1,0 +1,141 @@
+/*--------------------*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+  background-color: #E5E5E5;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+	overflow: hidden;
+}
+
+.header {
+  min-width: 100%;
+  background-color:#1F2229;
+  height: 44px;
+}
+
+.header__container {
+  max-width: 880px;
+  display: flex;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.header__logo {
+  width: 87px;
+  margin-right: 20px;
+}
+
+.header__text {
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+
+form {
+  padding-left: 114px;
+  padding-right: 114px;
+}
+
+.content {
+  flex: 1 0 100%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 41px;
+  background-color: #FAF6F6;
+}
+
+input, select {
+  margin-top: 38px;
+}
+
+.btn {
+  margin-top: 64px;
+  margin-bottom: 112px;
+}
+
+.form-control {
+  height: 52px;
+}
+
+.form__title {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+
+.form__description {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.none {
+  display: none;
+}
+
+label.error.fail-alert {
+  background: #ffe6eb;
+  }
+
+@media (max-width: 500px) {
+  form {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
