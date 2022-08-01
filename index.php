@@ -7,7 +7,7 @@
   <title>IQ Dev Backend</title>
   <link href="assets/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="assets/  jquery-ui.css">
+  <link rel="stylesheet" href="assets/jquery-ui.css">
   <script src="assets/jquery-1.12.4.js"></script>
   <script src="assets/jquery-ui.js"></script>
   <script src="assets/jquery.validate.min.js"></script>
